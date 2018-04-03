@@ -16,7 +16,7 @@ function init() {
 
 	$.ajax({
 		method: 'GET',
-		url: 'http://me.studingwebdev.com/wp-json/wp-api-menus/v2/menus/2',
+		url: 'https://me.studingwebdev.com/wp-json/wp-api-menus/v2/menus/2',
 		dataType: 'json',
 		success: function (data) {
 
