@@ -1,6 +1,4 @@
 <!doctype html>
-<!-- step-101.0 of the inside out project-->
-<!-- https://1xx.studingwebdev.com-->
 
 <html lang="en">
 <head>
@@ -8,19 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>inside out - HTML5 App</title>
 	
-<!-- bootstrap css from cdn -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	
-<!-- Font Awesome css from cdn -->
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 
-<!-- style used for the header and body of the page -->
 <link rel="stylesheet" href="assets/css/header-resize.css">
 
-<!-- style used for nav menu -->
 <link rel="stylesheet" href="assets/css/style.css">	
 	
-<!-- style used for the footer of the page -->
 <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
@@ -28,59 +23,23 @@
 <div id="wrapper">
   <header>
     <div class="container clearfix">
-      <h1 id="logo"> inside out </h1>
+      <h1 id="logo" onClick="getPage(47)"> inside out </h1>
       <nav> </nav>
     </div>
   </header>
-  <!-- /header -->
   
   <div id="main">
     <div id="content">
       <section>
         <div class="container">
-          <h1>White Panel</h1>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-        </div>
-      </section>
-      <section class="color">
-        <div class="container">
-          <h1>Blue Panel</h1>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
-          <p>Panel Content</p>
+          	<div class="circle">
+				<div class="wave">
+				</div>
+			</div>
         </div>
       </section>
     </div>
   </div>
-  <!-- #main -->
   
   <footer>
     <div class="container">
@@ -123,7 +82,6 @@
       </div>
     </div>
   </footer>
-  <!-- /footer -->
   
   <div class="copyright">
     <div class="container">
@@ -145,30 +103,19 @@
     </div>
   </div>
 </div>
-<!-- /#wrapper --> 
 
-<!-- tehter javascript from cdn --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.js" integrity="sha256-FmuhX0RWWqEeRXCCVKBhxbQFkoPR5KX6CxmoqU2y7ZM=" crossorigin="anonymous"></script> 
 
-<!-- jquery javascript from cdn --> 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> 
 
-<!-- popper javascript from cdn --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
 
-<!-- bootstrap javascript from cdn --> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
 
-<!-- javascript used for the header and body of the page --> 
 <script src="assets/js/header-resize.js"></script> 
 
-<!--
-all javascript used in the app that is custom
-will come from app.js file 
---> 
 <script src="assets/js/app.js"></script>
 	
-<!-- github repository located at https://github.com/JasonKurtzWebDeveloper/1xx -->
 	<div id="loaderDiv"></div>
 	<script>$("#loaderDiv").fadeIn("slow");</script>
 	
