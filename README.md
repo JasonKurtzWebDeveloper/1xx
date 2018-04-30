@@ -67,3 +67,17 @@ inside out project version 104.0
 		- adde getPage function call to the ajax call for the menus on page load to get the homepage
 		- modified the forEach loop in the menuBuilder to include the pageid as a data atribute
 		
+	inside out project version 106.0
+		me WP Site Changes
+			- add the pages for the links in the general links section in the footer
+				- contact us, frequently ask questions, terms & conditions, privacy policy
+		
+		inside out App Site Changes
+			
+			- index.html
+				- code changes https://www.diffchecker.com/Td5ZPWg6
+				-add id="genLinks" to the ul in the "General Links" section in the footer
+			- app.js
+				- code changes https://www.diffchecker.com/KBtMvQ7d
+				-add ajax call to get the general links menu
+				- add varibles to the menuBuilder function to accept id and class information
